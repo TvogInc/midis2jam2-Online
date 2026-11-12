@@ -39,4 +39,4 @@ Click the **[Open in GitHub Codespaces]** button at the top of this page.
 
 ## 🙏 Credits
 
-Built on top of **[midis2jam2](https://github.com)**, created by [wyskoj](https://github.com).
+Built on top of **[midis2jam2](https://github.com/wyskoj/midis2jam2)**, created by [wyskoj](https://github.com/wyskoj).
