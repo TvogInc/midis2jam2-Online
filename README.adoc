@@ -1,46 +1,42 @@
-= 🎵 midis2jam2
+# 🎹 midis2jam2 Online
 
-image:https://img.shields.io/github/v/release/wyskoj/midis2jam2[]
-image:https://img.shields.io/github/downloads/wyskoj/midis2jam2/total[GitHub Downloads (all assets, all releases)]
-image:https://img.shields.io/codacy/grade/2685466ed5224e58b52d707a64737352[Codacy grade]
-image:https://img.shields.io/github/license/wyskoj/midis2jam2[]
-image:https://img.shields.io/github/issues-closed/wyskoj/midis2jam2[]
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tvoginc/midis2jam2-online)
 
-midis2jam2 is a remaster of MIDIJam, a 3D MIDI file visualizer.
-It plays and animates any MIDI file with a 3D virtual band.
+Experience **[midis2jam2](https://github.com)** right in your web browser with zero local installation—powered by **GitHub Codespaces** with live 3D graphics, real-time audio streaming, and an easy MIDI file uploader.
 
-It is written in Kotlin/JVM and uses jMonkeyEngine for graphics.
+---
 
-== 🖥️ Installation
+## ✨ What You Can Do
 
-Install midis2jam2 with the https://github.com/wyskoj/midis2jam2/releases[appropriate installer for the latest version].
+* **Watch & Listen in Your Browser:** Enjoy the full 3D virtual band performance with synchronized live audio streamed straight to your browser tab.
+* **Play Your Own MIDI Files:** Upload any `.mid` or `.midi` file from your computer using the built-in web toolbar and start jamming instantly.
+* **Automatic Performance Tuning:** No manual configuration required—the app automatically detects your Codespace's hardware and adjusts graphics quality and frame rate for smooth playback.
+* **Always Up to Date:** Automatically stays synced with the latest features and instrument updates from the official `wyskoj/midis2jam2` project.
 
-== 💾 Building
+---
 
-midis2jam2 requires JDK 21 to be on your machine's PATH to build and run.
-https://www.azul.com/downloads/#zulu[Azul Zulu 21] is known to work well.
+## 🚀 How to Launch & Play
 
-[source,bash]
-----
-$ git clone https://github.com/wyskoj/midis2jam2
-$ cd midis2jam2 && ./gradlew run
-----
+### Step 1: Click to Launch
+Click the Open in GitHub Codespaces button at the top of this page.
 
-== ⁉️ Support
+*(Your cloud environment will automatically build the 3D engine, configure audio streaming, and open the web player in a new browser tab after 1–2 minutes.)*
 
-Find guides and answers to common questions on the https://docs.midis2jam2.xyz/[documentation site]. For support, visit https://github.com/wyskoj/midis2jam2/discussions[the discussions page].
+### Step 2: Upload & Jam
+1. Once the **midis2jam2 Online** web page opens, choose any `.mid` or `.midi` file in the top bar and click **Upload & Play**.
+2. Click the **Play (`▶`)** button on the top audio bar if your browser pauses sound automatically.
 
-== ✴️ Acknowledgements
+*(Tip: If the web player tab doesn't open automatically, go to the **Ports** tab at the bottom of the Codespace and click the **globe icon** next to port **5000**.)*
 
-* http://www.gamesbyscott.com/midijam.htm[MIDIJam]
-* https://jmonkeyengine.org/[jMonkeyEngine]
+---
 
-== ⚖️ License
+## 💡 Tips for the Best Experience
 
-midis2jam2 © MMXXI–MMXXVI Jacob Wysko. The software is licensed under the https://github.com/wyskoj/midis2jam2/blob/master/LICENSE[GNU General Public License v3.0] and comes with absolutely no warranty.
+* **Audio Blocked?** Modern browsers often mute autoplay audio until you interact with the page. Simply click the **Play (`▶`)** button in the top audio bar once after uploading a song.
+* **Need More FPS?** If the 3D stage feels choppy, launch your Codespace with an **8-core** or **16-core** machine type—the setup script will automatically unlock higher resolution and smoother frame rates.
 
-Some assets Copyright © 2007 Scott Haag  (used with permission).
+---
 
-View the _About_ screen in the application for contribution attributions.
+## 🙏 Credits
 
-SoundFont is a registered trademark of E-mu Systems, Inc.
+Built on top of **[midis2jam2](https://github.com/wyskoj/midis2jam2)**, created by [wyskoj](https://github.com/wyskoj).
