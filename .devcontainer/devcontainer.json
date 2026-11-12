@@ -1,0 +1,19 @@
+{
+  "name": "midis2jam2 Online",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "chmod +x setup.sh && ./setup.sh &",
+  "portsAttributes": {
+    "5000": {
+      "label": "midis2jam2 Web Player",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    },
+    "6080": {
+      "label": "3D Display Stream",
+      "onAutoForward": "silent",
+      "visibility": "public"
+    }
+  }
+}
