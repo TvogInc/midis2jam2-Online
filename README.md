@@ -1,4 +1,5 @@
 # 🎹 midis2jam2 Online
+# Still in development, doesn't work yet.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tvoginc/midis2jam2-online)
 
