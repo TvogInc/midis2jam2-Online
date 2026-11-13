@@ -3,7 +3,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/tvoginc/midis2jam2-online)
 
-Experience **[midis2jam2](https://github.com)** right in your web browser with zero local installation—powered by **GitHub Codespaces** with live 3D graphics, real-time audio streaming, and an easy MIDI file uploader.
+Experience **[midis2jam2](https://github.com/wyskoj/midis2jam2)** right in your web browser with zero local installation—powered by **GitHub Codespaces** with live 3D graphics, real-time audio streaming, and an easy MIDI file uploader.
 
 ---
 
