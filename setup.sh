@@ -40,8 +40,8 @@ fi
 echo "⚙️ Applying optimal profile: ${TIER} | Res: ${RES} | OpenGL Threads: ${GL_THREADS}"
 
 # 2. Install required system packages
-sudo apt-get update
-sudo apt-get install -y openjdk-17-jdk xvfb fluxbox x11vnc novnc websockify \
+apt-get update
+apt-get install -y openjdk-17-jdk xvfb fluxbox x11vnc novnc websockify \
     pulseaudio ffmpeg python3-flask libgl1-mesa-dri mesa-utils
 
 # 3. Start Virtual Audio Sink (PulseAudio)
